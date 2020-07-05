@@ -71,7 +71,7 @@ void loop() {
           bleKeyboard.releaseAll();
           break;
         case 0xD7:
-          Serial.println("left");
+          Serial.println("right");
           bleKeyboard.press(KEY_LEFT_SHIFT);
           bleKeyboard.press('L');
           delay(100);
